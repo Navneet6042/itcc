@@ -1,0 +1,5 @@
+sal=int(input("enter youe salary  :"))
+dep=int(input("enter number of dependencies  :"))
+salbfrtx=sal-(3000*(dep))
+salaftrtx=salbfrtx-(salbfrtx*(20/100))
+print("net salary after all the deductions is :",salaftrtx)
